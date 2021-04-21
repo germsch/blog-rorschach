@@ -4,62 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Rorschach</title>
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        div {
-            /*padding: 10px;*/
-            /*margin: 0px;*/
-        }
-
-        #main-nav {
-            background: #ffeed4;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #nav-1 {
-            display: flex;
-            align-items: center;
-        }
-
-        #nav-2 {
-            display: flex;
-            /*justify-content: space-evenly;*/
-            /*align-items: center;*/
-        }
-
-        #nav-3 {
-            background: cornflowerblue;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #main {
-            background: crimson;
-        }
-
-        #section-aside {
-            display: flex;
-        }
-
-        #section {
-            background: darkblue;
-            
-        }
-
-        #article {
-            background: darkgrey;
-        }
-
-        #aside {
-            background: darksalmon;
-        }
-    </style>
+    <title>Rorschach</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+    
+    <link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header id="main-nav">
@@ -81,15 +32,19 @@
       </div>
   </header>
   <main id="main">
-      Lorem main (title)
+      <p>Lorem main (title)</p>
 
-    <div>Lorem ipsum highlight</div>
+    <div id="highlight">
+        Lorem ipsum highlight
+        <button>Nesletter</button>
+        <img src="img\highlight.jpg" alt="highlight"\>
+    </div>
 
     <div id="section-aside">
-        <section id="section">Lorem section
-            <article id="article">Lorem article 1</article>
-            <article id="article">Lorem article 2</article>
-            <article id="article">Lorem article 3</article>
+        <section class="section">
+            <article class="article">Lorem article 1</article>
+            <article class="article">Lorem article 2</article>
+            <article class="article">Lorem article 3</article>
         </section>
             
         <aside id="aside">Lorem aside</aside>

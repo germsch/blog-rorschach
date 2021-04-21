@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#main-nav {
+    background: #ffeed4;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-1 {
+    display: flex;
+    align-items: center;
+}
+
+#nav-2 {
+    display: flex;
+    align-items: center;
+}
+
+#nav-3 {
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+#main {
+    background: crimson;
+}
+
+#main p {
+    text-align: center;
+}
+
+#main #highlight {
+    font-size: 18px;
+}
+
+#section-aside {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+#section-aside .section {
+    background: darkblue;
+    /* display: flex; */
+    
+}
+
+#section-aside .section .article {
+    background: darkgrey;
+    /* display: flex; */
+}
+
+#aside {
+    background: darksalmon;
+    display: flex;
+    justify-content: flex-end;
+}
